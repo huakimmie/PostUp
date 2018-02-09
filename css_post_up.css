@@ -1,0 +1,226 @@
+		.wrapping{
+			margin-left: 60px;
+			margin-right: 60px
+		}
+		.inner{
+			padding-top: 20px;
+			padding-bottom:35px;
+		}
+		.organize{
+			float:left;
+			padding-top:50px;
+			width:55%;
+			font-family: arial;
+			vertical-align:text-top;
+		}
+		.organ{
+			float:left;
+			padding-top:50px;
+			width:95%;
+			font-family: arial;
+			vertical-align:text-top;
+
+		}
+
+		.comments{
+			float:right;
+			padding-top:50px;
+			width:40%;
+			font-family:arial;
+		}
+		.close{
+				text-align: right;
+		}
+
+		.topnav {
+	  		  background-color: #F5F5F5;
+	  		  overflow:hidden;
+	  		  font-family: arial;
+	  		  font-weight:bold;
+		}
+		.topnav a {
+	    	float: right;
+	    	color: gray;
+	    	text-align: center;
+	    	margin-right:40px;
+	    	text-decoration: none;
+	    	font-size: 15px;
+		}
+	    .topnav a:hover {
+	    	background-color: #ddd;
+	    	color: black;
+		}
+		.topnav a.active {
+	    	background-color: #4CAF50;
+	    	color: white;
+		}
+		.botnav {
+	  		background-color: #00061A;
+	  		overflow:hidden;
+	  		padding: 0px,20px;
+	  		margin-top:0px;
+		}
+		.botnav a {
+	    	float: left;
+	    	text-align: center;
+	    	padding-right: 20px;
+	    	padding-left: 20px;
+	    	margin-right:5px;
+	    	text-decoration: none;
+		}
+	    .botnav a:hover {
+	    	background-color: #ddd;
+	    	color: black;
+		}
+		.botnav a.active {
+	    	background-color: #4CAF50;
+	    	color: white;
+		}
+		.lownav {
+	  		background-color: white;
+	  		
+	  		font-size:18px;
+	  		font-family:impact;
+	  		overflow:hidden;	
+		}
+		.lownav a {
+			padding-top:5px;
+	  		padding-bottom:5px;
+	    	float: left;
+	    	text-align: center;
+	    	padding-right: 10px;
+	    	padding-left: 10px;
+	    	color:black;
+	    	text-decoration: none;
+		}
+	    .lownav a:hover {
+	    	background-color: #ddd;
+	    	color: black;
+		}
+		.lownav a.active {
+	    	background-color: #4CAF50;
+	    	color: black;
+		}
+		#photo{
+			float : left;
+		}
+			#home{
+			background-color:#E62E00;
+			color:white;
+			font-size: 20px;
+			font-family:impact;
+			padding-top:5px;
+  			padding-bottom:5px;
+			}
+
+		#make{
+			float:right;
+		}
+		#topic{
+			padding-bottom:20px;
+			width:70%;
+			text-align: left;
+			color:grey;
+			font-size: 18px;
+		}
+		#sub{
+			padding-bottom:20px;
+			width:10%;
+			color:grey;
+			text-align:center;
+			font-size:18px;
+		}
+		#topicsub{
+			color:#262626;
+			font-size:19px;
+			text-decoration:none;
+		}
+		#innersub{
+			text-align:center;
+			vertical-align:top;
+			color:grey;
+			font-size:19px;
+		}
+		#userform{
+			display:none;
+			float:right;
+			width:300px;
+			background-color:white;
+			font-family:arial;
+			font-size:15px;
+
+		}
+		#newuserform{
+			display:none;
+			float:right;
+			width:300px;
+			background-color:white;
+			font-family:arial;
+			font-size:15px;
+
+		}
+		#username{
+			margin-right:10px;
+			float:right;
+			width:140px;
+		}
+		#password{
+			margin-right:10px;
+			float:right;
+			width:140px;
+		}
+		#new_username{
+			margin-right:10px;
+			float:right;
+			width:140px;
+		}
+		#new_password{
+			margin-right:10px;
+			float:right;
+			width:140px;
+		}
+		#title{
+			padding-bottom:20px;
+			width:65%;
+			text-align: left;
+			color:black;
+			font-size: 20px;
+		}
+		#othertitles{
+			padding-bottom:20px;
+			width:30%;
+			text-align:left;
+			color:black;
+			font-size:18px;
+		}
+		#wid{
+			width:100%;
+		}
+		#fieldsize{
+			width:600px;
+		}
+		#makepostdiv{
+			display:none;
+		}
+		pre{
+			margin-top:0px;
+		 font-family: impact;
+		 padding-left:15px;
+		 font-size: 65px;
+		 color: black;
+
+		}
+	
+		textarea{
+			overflow:hidden;
+		}
+		strong{
+			font-size:16px;
+			font-style: italic;
+			font-weight:bold;
+		}
+	    .topicsub:hover {
+	    	background-color: #ddd;
+	    	color: black;
+		}
+	
