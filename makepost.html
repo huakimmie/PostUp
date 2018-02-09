@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+<script type="text/javascript">
+    </script>
+<link rel="stylesheet" type="text/css" href="css_post_up.css" >
+<script type="text/javascript" src="function_postup.js"></script>
+
+<title> POST UP</title>
+
+</head>
+
+
+<body>
+
+	<div class="topnav">
+  <a onclick="login()">Log In</a>
+  <a onclick="newreg()">Sign Up</a>
+</div>
+<form id="userform" action="postup.php" method="post">
+  <fieldset>
+      <label for="username">Username: </label>
+      <input type="text" name="username" id="username" class="text"/>
+      <br /><br />
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password" class="text" />
+      <br /><br />
+      <input type="button" value="Submit" onclick="login_form()">
+  </fieldset>
+</form>
+<form id="newuserform" action="wpostup.php" method="post">
+  <fieldset>
+      <label for="new_username">New Username: </label>
+      <input type="text" name="new_username" id="new_username" class="text"/>
+      <br /><br />
+      <label for="new_password">New Password: </label>
+      <input type="password" name="new_password" id="new_password" class="text" />
+      <br /><br />
+      <input type="button" value="Submit" onclick="new_reg_form()">
+  </fieldset>
+</form>
+<div class="wrapping">
+<div class="inner">
+	<img  id = "photo" height =100px width =100px src="ball.jpg" alt="ball"/><t1>P</t1><t11>O</t11><t11>S</t11><t11>T</t11><t11>&nbsp;</t11><t11>U</t11><t11>P</t11>
+</div>
+	<div class="botnav">
+  <a href="postup.php" id="home">FORUMS</a>
+</div>
+<div class="lownav">
+  <a href="postup.php">MOST RECENT</a>
+  <a href="popping_postup.php">LEAST RECENT</a>
+  <a href="makepost.html" id="make">MAKE NEW POST</a>
+</div>
+<form id="storystyle">
+    <fieldset>
+        <legend>New Post</legend>
+        <fieldset>
+        <legend>Title</legend>
+        <input id="wid" maxlength ="200" type="text" name="title">
+    </fieldset>
+        <p></p>
+        <fieldset>
+        <legend>Post Body</legend>
+        <textarea id="pbody" cols= 100% rows="20" maxlength="1000" name="body"></textarea>
+    </fieldset>
+    <p></p>
+    	<input type="button" value="Submit" onclick="make_post_form()"/>
+    </fieldset>
+</form>
+</table>
+<div id="newdata">
+</div>
+</div class="wrapping">
+</body>
+</html>
